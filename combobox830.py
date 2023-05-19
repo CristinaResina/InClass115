@@ -1,8 +1,8 @@
-#Import from the class libry.
+#Import tkinter library and ttk from library
 import tkinter as tk
 from tkinter import ttk
 
-#Creating the function for event.
+#Create the function for event.
 def on_select(event):
 
     #Create an item object that obtains the value of the selected item.
@@ -13,7 +13,7 @@ def on_select(event):
 root=tk.Tk()
 root.title("Cristina is cool")
 
-#Create an arrey item
+#Create an array item
 items = ["Item1","Item 2","Item 3","Item 4","Item 5",]
 
 #Create a combo box objects,put the objects in the root window and populate value. 
@@ -25,5 +25,5 @@ combo_box.bind("<<ComboboxSelected>>",on_select)
 #Pack the objects to the screen with the Geometry manager.
 combo_box.pack()
 
-#Mainloop keeps the root patent window visible.
+#Mainloop keeps the root parent window visible.
 root.mainloop()
