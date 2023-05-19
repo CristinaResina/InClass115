@@ -1,7 +1,7 @@
 #Import tkinter  from the class library 
 import tkinter as tk 
 
-#Create function 
+#Create function for button click 
 def button_click():
     print("Button clicked!")
 #Create root window 
@@ -12,5 +12,5 @@ root.title("Button Example")
 button =  tk.Button(root, text="Click Me!", command=button_click)
 button.pack()
 
-#Create a mainloop
+#Create a main loop
 root.mainloop()
