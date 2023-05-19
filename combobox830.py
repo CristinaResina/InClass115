@@ -25,5 +25,5 @@ combo_box.bind("<<ComboboxSelected>>",on_select)
 #Pack the objects to the screen with the Geometry manager.
 combo_box.pack()
 
-#Mainloop keeps the root parent window visible.
+#Main loop keeps the root parent window visible.
 root.mainloop()
