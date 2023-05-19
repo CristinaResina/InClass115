@@ -14,7 +14,7 @@ root=tk.Tk()
 root.title("Cristina is cool")
 
 #Create an arrey item
-items = ["Item1","Item 2","Item 3","Item4","Item5",]
+items = ["Item1","Item 2","Item 3","Item 4","Item 5",]
 
 #Create a combo box objects,put the objects in the root window and populate value. 
 combo_box = ttk.Combobox(root, value=items)
